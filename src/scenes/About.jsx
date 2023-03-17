@@ -34,7 +34,7 @@ const About2 = () => {
                         {isAboveLarge ? (
                             <img
                                 alt="profile"
-                                className="hover:filter hover:saturate-150 hover:shadow-2xl shadow-m transition duration-500 z-10 w-full max-w-[500px] rounded-sm"
+                                className="hover:filter hover:saturate-150 hover:shadow-2xl shadow-m transition duration-500 z-10 w-full max-w-[500px] max-h-[60vh] rounded-sm"
                                 src="../assets/profileImage.webp"
                             />
                         ) : (
