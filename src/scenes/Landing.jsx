@@ -44,17 +44,17 @@ const Landing = ({ setSelectedPage }) => {
             }}
           >
             <p className="text-5xl font-extralight z-10 text-center md:text-start">
-              Your {""}
+              Kazuo {""}
               <span
                 className="xs:relative xs:text-blue xs:font-extralight z-20
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
               >
-                Name
+                Ota
               </span>
             </p>
 
             <p className="mt-10 mb-7 text-sm text-center md:text-start">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, repudiandae enim voluptatibus impedit soluta incidunt animi perspiciatis vitae delectus voluptates, maxime saepe! Sed, optio repudiandae repellat excepturi amet necessitatibus sunt!
+              Professional Photography: Portraits, Landscapes, and Events - Creating Timeless Memories
             </p>
           </motion.div>
 

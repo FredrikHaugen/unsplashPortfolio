@@ -60,7 +60,7 @@ const About2 = () => {
                             }}
                         >
                             <p className="mt-10 mb-7 text-center md:text-start">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id laborum nemo voluptatem, suscipit hic adipisci unde temporibus incidunt consequatur fuga laboriosam a ratione inventore tenetur odit eligendi illum nisi numquam.
+                                As a dedicated photographer, my mission is to reveal the distinct beauty and character within each subject I photograph, from breathtaking landscapes to captivating portraits. My love for photography emerged early in life and has driven me to hone my skills and techniques, crafting visually striking images that narrate a story.
                             </p>
                         </motion.div>
 
@@ -78,8 +78,7 @@ const About2 = () => {
                             }}
                         >
                             <p className="mt-10 mb-7 text-center md:text-start">
-                                Officia dolorum eos dolor reprehenderit labore eveniet odio amet eius deleniti quos omnis possimus, nulla sequi nostrum vitae harum velit corporis libero?
-
+                                My approach to photography revolves around harnessing natural light and meticulous composition to encapsulate the spirit of each moment. I firmly believe that forging a connection with my subjects is crucial for producing impactful and unforgettable images, as it allows their unique personalities and emotions to take center stage. With every shot, I strive to elicit a sense of wonder and spark the viewer's imagination, crafting photographs as exceptional and inspiring as the subjects themselves. Beyond my technical expertise, I place significant emphasis on comprehending and adapting to my clients' needs and preferences.
                             </p>
                         </motion.div>
 
@@ -97,7 +96,7 @@ const About2 = () => {
                             }}
                         >
                             <p className="mt-6 mb-7 text-center md:text-start">
-                                Doloribus eligendi saepe perspiciatis corporis. Assumenda repudiandae nemo, at numquam libero facere. Deserunt rerum consectetur exercitationem minus nobis voluptas incidunt illum quidem. Id laborum nemo voluptatem, suscipit hic adipisci unde temporibus incidunt consequatur fuga laboriosam a ratione inventore tenetur odit eligendi illum nisi numquam.
+                                Regardless of whether I'm working on a family portrait session, an event, or a landscape project, I tackle each endeavor with unwavering dedication and enthusiasm to deliver images that surpass expectations. Ultimately, my work seeks to create not just visually stunning photographs, but also enduring memories that can be treasured and passed down for generations.
                             </p>
                         </motion.div>
 
