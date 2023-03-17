@@ -96,7 +96,7 @@ const Landing = ({ setSelectedPage }) => {
         </div>
 
       </div>
-      <div className=" h-screen flex justify-center  align-bottom" style={{ paddingTop: '35rem' }}>
+      <div className=" h-screen lg:flex justify-center pb-24 align-bottom md:hidden sm:hidden">
         <div className="fade-slow">
           <SlArrowDown size={50} />
         </div>
