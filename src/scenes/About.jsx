@@ -5,7 +5,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 const About2 = () => {
     const isAboveLarge = useMediaQuery("(min-width: 1060px)");
     return (
-        <section id="about" className="py-48">
+        <section id="about" className="py-12">
             <motion.div
                 initial="hidden"
                 whileInView="visible"
@@ -27,7 +27,7 @@ const About2 = () => {
                 </div>
             </motion.div>
             <div
-                className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10">
+                className="md:flex md:justify-between md:items-center gap-16 md:h-full pt-10">
                 {/* IMAGE SECTION */}
                 <a href="https://unsplash.com/photos/c8Q4BtMZgqM" target="_blank" rel="noreferrer">
                     <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">

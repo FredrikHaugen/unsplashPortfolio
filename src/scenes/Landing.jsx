@@ -1,7 +1,6 @@
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import { SlArrowDown } from 'react-icons/sl';
 
 
 const Landing = ({ setSelectedPage }) => {
@@ -96,12 +95,7 @@ const Landing = ({ setSelectedPage }) => {
         </div>
 
       </div>
-      <div className=" h-screen lg:flex justify-center pb-24 align-bottom md:hidden sm:hidden">
-        <div className="fade-slow">
-          <SlArrowDown size={50} />
-        </div>
-      </div>
-    </section>
+    </section >
   );
 };
 
