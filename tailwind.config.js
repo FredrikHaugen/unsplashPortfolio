@@ -5,15 +5,15 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'bounce-slow': 'bounce 2s linear infinite'
+        'fade-slow': 'fade-slow 3s linear infinite'
       },
       keyframes: {
-        'bounce-slow': {
-          '0%, 20%, 50%, 80%, 100%': { transform: 'translateY(0)' },
-          '40%': { transform: 'translateY(-5px)' },
-          '60%': { transform: 'translateY(-3px)' },
+        'fade-slow': {
+          '0%, 100%': { opacity: '0.8' },
+          '50%': { opacity: '1' },
         },
       },
+
       colors: {
         "deep-blue": "#010026",
         blue: "#FF4A4A",
