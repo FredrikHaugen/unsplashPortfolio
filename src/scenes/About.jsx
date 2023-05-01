@@ -35,19 +35,19 @@ const About2 = () => {
                             <img
                                 alt="profile"
                                 className="hover:filter hover:saturate-150 hover:shadow-2xl shadow-m transition duration-500 z-10 w-full max-w-[500px] max-h-[60vh] rounded-sm"
-                                src="../assets/profileImage.webp"
+                                src="https://images.unsplash.com/photo-1499417267106-45cebb7187c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1919&q=80"
                             />
                         ) : (
                             <img
                                 alt="profile"
                                 className="z-10 shadow-2xl w-full max-w-[400px] md:max-w-[600px] rounded-sm hover:shadow-2xl shadow-m"
-                                src="assets/profileImage.webp"
+                                src="https://images.unsplash.com/photo-1499417267106-45cebb7187c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1919&q=80"
                             />
                         )}
                     </div>
                 </a>
                 <div className="md:max-w-[40vw]">
-                    <div className="z-30 basis-2/5 mt-12">
+                    <div className="z-30 basis-2/5 mt-24">
 
                         <motion.div
                             initial="hidden"

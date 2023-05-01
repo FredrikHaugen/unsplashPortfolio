@@ -17,13 +17,13 @@ const Landing = ({ setSelectedPage }) => {
               <img
                 alt="profile"
                 className="hover:filter hover:saturate-150 shadow-2xl transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-                src="../assets/heroImage.webp"
+                src="https://images.unsplash.com/photo-1676269006651-2d2072136c49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
               />
             ) : (
               <img
                 alt="profile"
                 className="z-10 shadow-2xl w-full max-w-[400px] md:max-w-[600px]"
-                src="assets/heroImage.webp"
+                src="https://images.unsplash.com/photo-1676269006651-2d2072136c49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
               />
             )}
           </div>

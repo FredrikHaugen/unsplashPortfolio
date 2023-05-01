@@ -18,18 +18,13 @@ const projectVariant = {
 const Project = ({ title, label }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl">{label}</p>
-        <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
-        </p>
-      </div>
-      <img src={`assets/${projectTitle}.webp`} alt={label} className='h-[400px] w-[400px] object-cover' />
+      </div> 
+      <img src={title} alt={label} className='h-[400px] w-[400px] object-cover' />
     </motion.div>
   );
 };
@@ -75,11 +70,11 @@ const Portfolio = () => {
           >
             Some of my work
           </div>
-          <Project title="image 1" label="Vietnam, Hoi An" />
-          <Project title="image 2" label="Japan, Shizuoka" />
-          <Project title="image 3" label="Japan, Kyoto" />
-          <Project title="image 4" label="Japan, Hakone" />
-          <Project title="image 5" label="Water Lily" />
+          <Project title="https://images.unsplash.com/photo-1663569486986-8fcc060f9da1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2149&q=80" label="Mishakaike Pond, Nagano, Japan" />
+          <Project title="https://images.unsplash.com/photo-1651807428952-5f0637a7b3c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" label="Ishigaki, Okinawa, Japan" />
+          <Project title="https://images.unsplash.com/photo-1629807097065-79bd3273e656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" label="Karuizawa, Japan" />
+          <Project title="https://images.unsplash.com/photo-1620747114477-fd47435323c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" label="Kyoto, Japan" />
+          <Project title="https://images.unsplash.com/photo-1620647961024-d75451eee93a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" label="Kyoto, Japan" />
         </motion.div>
       </div>
     </section>
