@@ -29,7 +29,6 @@ const About2 = () => {
             <div
                 className="md:flex md:justify-between md:items-center gap-16 md:h-full pt-10">
                 {/* IMAGE SECTION */}
-                <a href="https://unsplash.com/photos/c8Q4BtMZgqM" target="_blank" rel="noreferrer">
                     <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
                         {isAboveLarge ? (
                             <img
@@ -45,7 +44,6 @@ const About2 = () => {
                             />
                         )}
                     </div>
-                </a>
                 <div className="md:max-w-[40vw]">
                     <div className="z-30 basis-2/5 mt-24">
 
