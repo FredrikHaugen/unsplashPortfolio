@@ -71,7 +71,7 @@ const Landing = ({ setSelectedPage }) => {
             <a
               className="bg-gradient-rainblue text-deep-blue rounded-sm py-2 px-5 font-light text-xl
               hover:bg-blue hover:text-slate-700 hover:scale-105 hover:shadow-2xl transition duration-500"
-              href="https://unsplash.com/@kazuo513"
+              href="mailto:contact@kazuophoto.com"
               target='_blank'
               rel="noreferrer"
             >
